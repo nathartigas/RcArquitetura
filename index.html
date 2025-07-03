@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rc Arquitetura</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="floating-navbar">
+        <div class="nav-container">
+            <div class="logo">RC Arquitetura</div>
+
+            <!-- Botão Hamburguer -->
+            <button class="hamburger-btn" type="button">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
+            <!-- Menu de Navegação -->
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Projetos</a></li>
+                <li><a href="#processo">Processo</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <button class="orcamento-btn">
+                    Orçamento
+                </button>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero-section" id="hero">
+        <h1>Arquitetura é a arte de transformar espaços em experiências.</h1>
+    </div>
+    <div class="drop-connector"></div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Seção Sobre -->
+    <section class="about-section"  id="sobre">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <div class="image-decor"></div>
+                        <img src="img/arquiteto-perfil.webp" alt="Rafael Lima - Arquiteto">
+                    </div>
+                </div>
+
+                <div class="about-text">
+                    <h2>Sobre</h2>
+                    <p class="description">
+                        Sou Rafael Lima, arquiteto paulistano com 12 anos de experiência em projetos que unem brutalismo
+                        e funcionalidade. Meu trabalho nasce da obsessão por materiais honestos e espaços que contam
+                        histórias através de formas puras e estruturas expressivas.
+                    </p>
+
+                    <div class="highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h3>Formação Acadêmica</h3>
+                                <p>Formado pela renomada Faculdade de Arquitetura e Urbanismo da USP</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h3>Reconhecimento Internacional</h3>
+                                <p>Premiado na Bienal de Veneza 2023 por inovação em design sustentável</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-drafting-compass"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h3>Experiência Consolidada</h3>
+                                <p>Mais de 150 projetos executados com excelência em todo o Brasil</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio-section"  id="portfolio">
+        <!-- Elementos decorativos -->
+        <div class="portfolio-decor decor-1"></div>
+        <div class="portfolio-decor decor-2"></div>
+        <div class="portfolio-decor decor-3"></div>
+
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">PORTFÓLIO ARQUITETÔNICO</h2>
+                <p class="section-subtitle">Uma seleção de projetos que representam nossa busca pela excelência em
+                    design e funcionalidade</p>
+            </div>
+
+            <!-- Container dos projetos em linha -->
+            <div class="portfolio-container">
+                <!-- Casa Cubo (destaque inicial) -->
+                <div class="portfolio-item active">
+                    <div class="portfolio-img-wrapper">
+                        <img src="img/casaCubo.webp" alt="Casa Cubo" loading="lazy">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-tag">Residencial</span>
+                        <h3 class="portfolio-title">CASA CUBO</h3>
+                        <p class="portfolio-description">Geometria pura em concreto e vidro que dialoga com a paisagem
+                            natural</p>
+                        <a href="#" class="portfolio-btn">
+                            Ver projeto <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- Galeria Aço & Luz -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background-image: url('img/galeria.webp');"></div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-tag">Comercial</span>
+                        <h3 class="portfolio-title">GALERIA AÇO & LUZ</h3>
+                        <p class="portfolio-description">Espaço cultural com iluminação linear e paredes de aço corten
+                        </p>
+                        <a href="#" class="portfolio-btn">
+                            Ver projeto <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Escritório em Concreto -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background-image: url('img/escritorio.webp');"></div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-tag">Comercial</span>
+                        <h3 class="portfolio-title">ESCRITÓRIO EM CONCRETO</h3>
+                        <p class="portfolio-description">Texturas brutas integradas à vegetação e iluminação natural</p>
+                        <a href="#" class="portfolio-btn">
+                            Ver projeto <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Praça das Artes -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background-image: url('img/praca.webp');"></div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-tag">Intervenção Urbana</span>
+                        <h3 class="portfolio-title">PRAÇA DAS ARTES</h3>
+                        <p class="portfolio-description">Requalificação de espaço público com elementos modulares e
+                            vegetação</p>
+                        <a href="#" class="portfolio-btn">
+                            Ver projeto <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="processo-section" id="processo">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">PROCESSO CRIATIVO</h2>
+                <p class="section-subtitle">Do traço ao concreto, cada etapa é pensada com precisão artesanal</p>
+            </div>
+
+            <div class="processo-steps">
+                <div class="step-item">
+                    <div class="step-icon"><i class="fas fa-wave-square"></i></div>
+                    <h3 class="step-title"><span>01.</span> Escuta</h3>
+                    <p class="step-description">Entendemos suas necessidades e o DNA do espaço. O projeto começa com
+                        você.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-icon"><i class="fas fa-pencil-ruler"></i></div>
+                    <h3 class="step-title"><span>02.</span> Desenho à Mão</h3>
+                    <p class="step-description">Esboços manuais ganham forma antes de qualquer renderização digital.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-icon"><i class="fas fa-hard-hat"></i></div>
+                    <h3 class="step-title"><span>03.</span> Execução</h3>
+                    <p class="step-description">Acompanhamento rigoroso de obra com foco em fidelidade ao conceito.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="depoimentos-section" id="depoimentos">
+        <div class="container">
+            <div class="section-header-light">
+                <h2 class="section-title">O QUE DIZEM SOBRE NÓS</h2>
+                <p class="section-subtitle">Experiências reais. Espaços que marcam.</p>
+            </div>
+
+            <div class="depoimentos-carousel">
+                <div class="depoimento active">
+                    <div class="aspas">“</div>
+                    <p class="texto">
+                        Rafael transformou meu apartamento em um loft industrial sem perder o aconchego.
+                    </p>
+                    <div class="autor">
+                        <span class="linha"></span>
+                        <p>Ana Santos, empresária</p>
+                    </div>
+                </div>
+                <div class="depoimento">
+                    <div class="aspas">“</div>
+                    <p class="texto">
+                        O projeto da minha loja virou referência no bairro. Concreto nunca foi tão elegante.
+                    </p>
+                    <div class="autor">
+                        <span class="linha"></span>
+                        <p>Carlos Mendes, dono da Concept Store</p>
+                    </div>
+                </div>
+
+                <!-- Botões -->
+                <button class="depoimento-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="depoimento-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+    <section class="contato-section" id="contato">
+        <div class="container contato-container">
+            <div class="formulario-contato">
+                <h2 class="contato-title">Entre em Contato</h2>
+                <form>
+                    <input type="text" placeholder="Seu nome" required>
+                    <input type="email" placeholder="Seu e-mail" required>
+                    <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+                    <label class="checkbox-label">
+                        <input type="checkbox">
+                        Aceito receber novidades da RC Arquitetura
+                    </label>
+                    <button type="submit" class="orcamento-btn">Enviar mensagem</button>
+                </form>
+
+                <div class="contato-info">
+                    <p><i class="fas fa-envelope"></i> contato@rcarquitetura.com.br</p>
+                    <p>
+                        <i class="fab fa-instagram"></i>
+                        <a href="https://www.instagram.com/rc.arquitetura" target="_blank">@rc.arquitetura</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="mapa-contato">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9438042273016!2d-46.648676585021334!3d-23.569063268768343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8e0be258d%3A0x73e77546e7b4477a!2sS%C3%A3o%20Paulo%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1719432342100!5m2!1spt-BR!2sbr"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+<footer class="site-footer">
+    <div class="container footer-content">
+        <div class="footer-logo">
+            <span>RC</span>
+            <p class="footer-slogan">Arquitetura bruta. Design essencial.</p>
+        </div>
+
+        <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#portfolio">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+
+        <p class="footer-copy">© 2025 RC Arquitetura. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+</html>
